@@ -1,3 +1,4 @@
+// About me page
 import React from 'react';
 
 export default function About() {
@@ -22,9 +23,10 @@ export default function About() {
                 project that pushes me a little past what I already know.
             </p>
 
+            {/* Button Link to resume */}
             <a
                 className="btn btn-primary"
-                href="/resume.pdf"
+                href="/Jason Mariano Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
             >
