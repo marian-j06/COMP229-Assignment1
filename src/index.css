@@ -456,3 +456,61 @@ code {
   padding: 4px 8px;
   background: var(--code-bg);
 }
+
+/* Contact form: styled to match the contact panel */
+.contact-form {
+  margin-top: 32px;
+  border: 1px solid var(--border);
+  border-top: 3px solid var(--brand);
+  border-radius: 8px;
+  padding: 24px;
+  text-align: left;
+  box-shadow: var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+}
+
+.form-row .form-field {
+  flex: 1 1 200px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.form-field label {
+  font-size: 15px;
+  font-weight: 600;
+  color: var(--text-h);
+}
+
+.form-field input,
+.form-field textarea {
+  font: inherit;
+  font-size: 16px;
+  padding: 10px 12px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--bg);
+  color: var(--text-h);
+}
+
+.form-field input:focus,
+.form-field textarea:focus {
+  outline: 2px solid var(--brand);
+  outline-offset: 1px;
+}
+
+.contact-form .btn {
+  align-self: flex-start;
+  cursor: pointer;
+}
